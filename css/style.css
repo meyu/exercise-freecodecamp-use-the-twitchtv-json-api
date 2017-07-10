@@ -1,0 +1,86 @@
+/* 底色 */
+html {
+	background: -webkit-linear-gradient(to right, #fff, #4B367C);
+	background: linear-gradient(to right, #fff, #4B367C);
+}
+
+/* 選單 */
+nav {
+	background-color: #4B367C;
+}
+.brand-logo {
+	margin: 0 11px;
+	font-family: 'Rationale', sans-serif;
+}
+nav ul a.btn-floating {
+	margin: 8px !important;
+}
+
+/* 頻道顯示 */
+main {
+	padding-top: 16px;
+}
+.card {
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: auto 100%;
+	margin-bottom: 2px;
+}
+.card-content {
+	color: #212121;
+	padding-bottom: 15px !important;
+}
+.badge {
+	position: absolute;
+	margin: 0 !important;
+}
+.rmvBotton {
+	display: none;
+	position: absolute;
+	margin: -6px;
+	text-align: center;
+}
+.addBotton {
+	text-align: center;
+}
+.live {
+	margin-top: -8px;
+	padding-right: 1px;
+	padding-left: 1px;
+}
+.embedChannel {
+	border: 0;
+	width: 100%;
+	height: 13em;
+}
+
+/* 頻道搜尋區 */
+.side-nav {
+	max-width: 90%;
+}
+.fixed-searchbar {
+	padding-top: 12px;
+	margin-bottom: 0;
+}
+#search_Result {
+	margin-bottom: 100px;
+}
+.side-nav a {
+	padding: 0;
+}
+
+/* Modals 微調*/
+.bottom-sheet, .modal-content {
+	max-height: 75vh !important;
+	height: 75vh !important;
+	padding: 0 !important;
+}
+.progress {
+	position: absolute;
+	top: 0;
+}
+#myIframe {
+	border: 0;
+	width: 100%;
+	height: 99%;
+}

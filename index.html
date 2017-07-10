@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>exercise@freeCodeCamp: Use the Twitchtv JSON API</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Rationale'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- 功能區 -->
+<header class="navbar-fixed">
+	<nav>
+		<a href="#" class="brand-logo left">My Channel</a>
+		<ul class="right">
+			<li><a class="btn-floating btn deep-purple lighten-3 pooh" data-activates="slide-out"><i class="material-icons">add</i></a></li>
+			<li><a class="btn-floating btn deep-purple lighten-3"><i id="editMode" class="material-icons">close</i></a></li>
+			<li><a class="btn-floating btn deep-purple lighten-3" href="#showDetail"><i class="material-icons">code</i></a></li>
+		</ul>
+	</nav>
+</header>
+
+<!-- 頻道顯示區 -->
+<main>
+	<div id="online_sec" class="row"></div>
+	<div class="row"><div id="offline_sec"></div></div>
+</main>
+
+<!-- 頻道搜尋區 -->
+<ul id="slide-out" class="side-nav">
+	<div class="row fixed-searchbar">
+		<div class="input-field col s12">
+			<i class="material-icons prefix">search</i>
+			<input id="search_Input" type="text">
+			<label for="search_Input">Channel search</label>
+		</div>
+	</div>
+	<div id="cart_sec" class="row"></div>
+</ul>
+
+
+<!-- 預覽指定網頁 -->
+<div id="showDetail" class="modal bottom-sheet">
+	<div class="modal-content">
+
+		<!-- Preloader -->
+		<div class="progress" style="display:none;">
+			<div class="indeterminate"></div>
+		</div>
+
+		<!-- page preview -->
+		<iframe id="myIframe" style="display:none;" src=""></iframe>
+
+		<!-- my code gist -->
+		<div id='myGist'>
+			<script src="https://gist.github.com/meyu/27830a3863853a456a339833f222be9f.js"></script>
+		</div>
+
+	</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
